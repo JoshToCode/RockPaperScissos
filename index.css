@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.game{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.Paper{
+width: 18%;
+}
+.start{
+    background-color: rgb(12, 206, 255);
+    padding: 15px;
+    text-align: center;
+    width: fit-content;
+    margin-top: .5%;
+    margin-left: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.results{
+    margin-left: 40%;
+    margin-top:5%;   
+}
+
+.gh{width: 20%;
+margin-left: 20px;}
+.sad{
+    background-color: rgb(212, 20, 20);
+    padding: 10px;
+    text-align: center;
+font-size: 20px;
+margin-top: 20px;
+display: none;
+}
+.happy{
+    background-color: rgb(20, 154, 212);
+    padding: 10px;
+    text-align: center;
+font-size: 20px;
+color: white;
+display: none;
+margin-top: 20px;
+}
+.draw{
+    background-color: rgb(65, 185, 0);
+    padding: 10px;
+    text-align: center;
+font-size: 20px;
+color: rgb(0, 0, 0);
+display: none;
+margin-top: 20px;
+}
+.score_board{
+    margin-left: 80%;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
